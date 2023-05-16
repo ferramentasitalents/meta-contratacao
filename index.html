@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Meta de Contratação</title>
+  <link href="https://ferramentasitalents.github.io/meta-contratacao/style.css" rel="stylesheet" />
+  <script src="https://ferramentasitalents.github.io/meta-contratacao/scripts.js"></script>
+</head>
+<body>
+  <div id="calculator">
+    <form onsubmit="calculateMeta(); return false;">
+      <label>Número de novas contratações no período:</label>
+      <input type="number" id="num-contratacoes" required>
+      <br>
+      <br>
+      <label>Meta de número de contratações estipulada para o período:</label>
+      <input type="number" id="meta-contratacoes" required>
+      <button type="submit">CALCULAR</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
